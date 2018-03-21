@@ -1,0 +1,39 @@
+{
+    "name": "blogamp",
+    "version": "1.0.0",
+    "description": "Amp sample",
+    "main": "gulpfile.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/adangnzlz/amp-sample.git"
+    },
+    "keywords": [
+        "amp",
+        "html",
+        "web",
+        "css"
+    ],
+    "author": "Adán González López",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/adangnzlz/amp-sample/issues"
+    },
+    "homepage": "https://github.com/adangnzlz/amp-sample#readme",
+    "dependencies": {},
+    "devDependencies": {
+        "browser-sync": "^2.23.6",
+        "connect-history-api-fallback": "^1.5.0",
+        "gulp": "^3.9.0",
+        "gulp-amphtml-validator": "^1.0.2",
+        "gulp-cssnano": "^2.1.2",
+        "gulp-flatten": "^0.4.0",
+        "gulp-html-tag-include": "^1.0.1",
+        "gulp-inject-string": "^1.1.1",
+        "gulp-plumber": "^1.2.0",
+        "gulp-sass": "^3.1.0",
+        "run-sequence": "^2.2.1"
+    }
+}
