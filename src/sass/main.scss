@@ -1538,7 +1538,8 @@ body {
 
 .gallery-base-content {
     background: #fff;
-    overflow-x: hidden
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .gallery-base-container {
@@ -1958,7 +1959,7 @@ figure {
     font-weight: 600;
     line-height: 1.2;
     width: 100%;
-    height: 100%;
+    height: 20%;
     max-width: 80vw;
     padding: 1rem 2vw 4rem;
     font-size: 13vw;
@@ -1968,7 +1969,8 @@ figure {
 @media (min-width:40.06rem) {
     .gallery-landing-title {
         font-size: 7vw;
-        padding: 1rem 5vw
+        padding: 1rem 5vw;
+        height: 90%;
     }
 }
 
@@ -2013,10 +2015,10 @@ figure {
 }
 
 .gallery-landing-wall-scroll {
-    width: 285vh;
+    width: 740vh;
     height: 100vh;
     min-width: 100vw;
-    overflow: hidden
+    overflow: hidden!important;
 }
 
 .gallery-landing-wall-scroll:after {
@@ -2243,16 +2245,16 @@ figure {
 .gallery-landing-image-wrap:nth-child(2) .gallery-landing-image-transform {
     width: 100%;
     height: 100%;
-    -webkit-transform: matrix3d(1.53405, .12295, 0, .00105, .0815, 1.33595, 0, .00049, 0, 0, 1, 0, -49.86319, -29.41596, 0, 1);
-    transform: matrix3d(1.53405, .12295, 0, .00105, .0815, 1.33595, 0, .00049, 0, 0, 1, 0, -49.86319, -29.41596, 0, 1)
+    -webkit-transform: matrix3d(1.53405, .12295, 0, .00105, .0815, 1.33595, 0, 0, 0, 0, 1, 0, -49.86319, -29.41596, 0, 1);
+    transform: matrix3d(1.53405, .12295, 0, .00105, .0815, 1.33595, 0, 0, 0, 0, 1, 0, -49.86319, -29.41596, 0, 1)
 }
 
 .gallery-landing-image-wrap:nth-child(3) {
     -webkit-animation-delay: -1s;
     animation-delay: -1s;
     width: 44vh;
-    top: 48vh;
-    left: -2vh
+    top: 55vh;
+    left: 27vh;
 }
 
 .gallery-landing-image-wrap:nth-child(3) .gallery-landing-image-transform {
@@ -2263,11 +2265,11 @@ figure {
 }
 
 .gallery-landing-image-wrap:nth-child(4) {
-    -webkit-animation-delay: -3s;
-    animation-delay: -3s;
-    width: 34vh;
-    top: 38vh;
-    left: 52vh
+    -webkit-animation-delay: -7s;
+    animation-delay: -7s;
+    width: 42vh;
+    top: 54vh;
+    left: 112vh
 }
 
 .gallery-landing-image-wrap:nth-child(4) .gallery-landing-image-transform {
@@ -2295,9 +2297,9 @@ figure {
 .gallery-landing-image-wrap:nth-child(6) {
     -webkit-animation-delay: -4s;
     animation-delay: -4s;
-    width: 35vh;
-    top: 78vh;
-    left: 44vh
+    width: 27vh;
+    top: 81vh;
+    left: 44vh;
 }
 
 .gallery-landing-image-wrap:nth-child(6) .gallery-landing-image-transform {
@@ -2312,7 +2314,7 @@ figure {
     animation-delay: -4s;
     width: 49vh;
     top: 10vh;
-    left: 90vh;
+    left: 95vh;
 }
 
 .gallery-landing-image-wrap:nth-child(7) .gallery-landing-image-transform {
@@ -2325,9 +2327,9 @@ figure {
 .gallery-landing-image-wrap:nth-child(8) {
     -webkit-animation-delay: -6s;
     animation-delay: -6s;
-    width: 34vh;
-    top: 5vh;
-    left: 139vh
+    width: 27vh;
+    top: 2vh;
+    left: 255vh;
 }
 
 .gallery-landing-image-wrap:nth-child(8) .gallery-landing-image-transform {
@@ -2340,9 +2342,9 @@ figure {
 .gallery-landing-image-wrap:nth-child(9) {
     -webkit-animation-delay: -5s;
     animation-delay: -5s;
-    width: 30vh;
-    top: -2vh;
-    left: 177vh
+    width: 56vh;
+    top: 9vh;
+    left: 153vh;
 }
 
 .gallery-landing-image-wrap:nth-child(9) .gallery-landing-image-transform {
@@ -2355,9 +2357,9 @@ figure {
 .gallery-landing-image-wrap:nth-child(10) {
     -webkit-animation-delay: -7s;
     animation-delay: -7s;
-    width: 42vh;
-    top: 54vh;
-    left: 112vh
+    width: 24vh;
+    top: 51vh;
+    left: 157vh;
 }
 
 .gallery-landing-image-wrap:nth-child(10) .gallery-landing-image-transform {
@@ -2372,7 +2374,7 @@ figure {
     animation-delay: -6s;
     width: 30vh;
     top: 52vh;
-    left: 84vh
+    left: 78vh
 }
 
 .gallery-landing-image-wrap:nth-child(11) .gallery-landing-image-transform {
@@ -2385,9 +2387,9 @@ figure {
 .gallery-landing-image-wrap:nth-child(12) {
     -webkit-animation-delay: -9s;
     animation-delay: -9s;
-    width: 42vh;
-    top: 70vh;
-    left: 239vh
+    width: 60vh;
+    top: 60vh;
+    left: 210vh;
 }
 
 .gallery-landing-image-wrap:nth-child(12) .gallery-landing-image-transform {
@@ -2401,8 +2403,8 @@ figure {
     -webkit-animation-delay: -8s;
     animation-delay: -8s;
     width: 25vh;
-    top: -2vh;
-    left: 107vh
+    top: 63vh;
+    left: 183vh;
 }
 
 .gallery-landing-image-wrap:nth-child(13) .gallery-landing-image-transform {
@@ -2416,8 +2418,8 @@ figure {
     -webkit-animation-delay: -10s;
     animation-delay: -10s;
     width: 39vh;
-    top: -8vh;
-    left: 215vh
+    top: 4vh;
+    left: 215vh;
 }
 
 .gallery-landing-image-wrap:nth-child(14) .gallery-landing-image-transform {
@@ -2431,8 +2433,8 @@ figure {
     -webkit-animation-delay: -9s;
     animation-delay: -9s;
     width: 29vh;
-    top: 71vh;
-    left: 152vh
+    top: 81vh;
+    left: 112vh;
 }
 
 .gallery-landing-image-wrap:nth-child(15) .gallery-landing-image-transform {
@@ -2443,26 +2445,26 @@ figure {
 }
 
 .gallery-landing-image-wrap:nth-child(16) {
-    -webkit-animation-delay: -11s;
-    animation-delay: -11s;
-    width: 28vh;
-    top: 12vh;
-    left: 259vh
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+    width: 30vh;
+    top: 44vh;
+    left: 192vh
 }
 
 .gallery-landing-image-wrap:nth-child(16) .gallery-landing-image-transform {
     width: 100%;
     height: 100%;
-    -webkit-transform: matrix3d(1.020174, -.024515, 0, .000056, .074137, 1.131994, 0, .000252, 0, 0, 1, 0, -6.0324, -7.678183, 0, 1);
-    transform: matrix3d(1.020174, -.024515, 0, .000056, .074137, 1.131994, 0, .000252, 0, 0, 1, 0, -6.0324, -7.678183, 0, 1)
+    -webkit-transform: matrix3d(1.240996, .134028, 0, .000724, .045148, .984221, 0, -.000332, 0, 0, 1, 0, -27.79074, -7.127927, 0, 1);
+    transform: matrix3d(1.240996, .134028, 0, .000724, .045148, .984221, 0, -.000332, 0, 0, 1, 0, -27.79074, -7.127927, 0, 1)
 }
 
 .gallery-landing-image-wrap:nth-child(17) {
     -webkit-animation-delay: -10s;
     animation-delay: -10s;
-    width: 42vh;
+    width: 30vh;
     top: 37vh;
-    left: 214vh
+    left: 314vh;
 }
 
 .gallery-landing-image-wrap:nth-child(17) .gallery-landing-image-transform {
@@ -2472,19 +2474,348 @@ figure {
     transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
 }
 
-.gallery-landing-image-wrap:last-child {
-    -webkit-animation-delay: -12s;
-    animation-delay: -12s;
-    width: 30vh;
-    top: 54vh;
-    left: 192vh
+.gallery-landing-image-wrap:nth-child(18) {
+    -webkit-animation-delay: -7s;
+    animation-delay: -7s;
+    width: 48vh;
+    top: 4vh;
+    left: 290vh;
 }
 
-.gallery-landing-image-wrap:last-child .gallery-landing-image-transform {
+.gallery-landing-image-wrap:nth-child(18) .gallery-landing-image-transform {
     width: 100%;
     height: 100%;
-    -webkit-transform: matrix3d(1.240996, .134028, 0, .000724, .045148, .984221, 0, -.000332, 0, 0, 1, 0, -27.79074, -7.127927, 0, 1);
-    transform: matrix3d(1.240996, .134028, 0, .000724, .045148, .984221, 0, -.000332, 0, 0, 1, 0, -27.79074, -7.127927, 0, 1)
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(19) {
+    -webkit-animation-delay: -11s;
+    animation-delay: -11s;
+    width: 29vh;
+    top: 4vh;
+    left: 346vh;
+}
+
+.gallery-landing-image-wrap:nth-child(19) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(20) {
+    -webkit-animation-delay: -11s;
+    animation-delay: -11s;
+    width: 36vh;
+    top: 60vh;
+    left: 274vh;
+}
+
+.gallery-landing-image-wrap:nth-child(20) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(21) {
+    -webkit-animation-delay: -8s;
+    animation-delay: -8s;
+    width: 55vh;
+    top: 52vh;
+    left: 349vh;
+}
+
+.gallery-landing-image-wrap:nth-child(21) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(22) {
+    -webkit-animation-delay: -3s;
+    animation-delay: -3s;
+    width: 21vh;
+    top: 36vh;
+    left: 412vh;
+}
+
+.gallery-landing-image-wrap:nth-child(22) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(23) {
+    -webkit-animation-delay: -5s;
+    animation-delay: -5s;
+    width: 31vh;
+    top: 34vh;
+    left: 444vh;
+}
+
+.gallery-landing-image-wrap:nth-child(23) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(24) {
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    width: 60vh;
+    top: 2vh;
+    left: 380vh;
+}
+
+.gallery-landing-image-wrap:nth-child(24) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(25) {
+    -webkit-animation-delay: -1s;
+    animation-delay: -1s;
+    width: 25vh;
+    top: 73vh;
+    left: 407vh;
+}
+
+.gallery-landing-image-wrap:nth-child(25) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(26) {
+    width: 16vh;
+    top: 5vh;
+    left: 447vh;
+}
+
+.gallery-landing-image-wrap:nth-child(26) .gallery-landing-image-transform {
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(27) {
+    width: 36vh;
+    top: 74vh;
+    left: 484vh;
+}
+
+.gallery-landing-image-wrap:nth-child(27) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.12249, 0.11025, 0, -0.0001, -0.03726, 1.0775, 0, -0.00004, 0, 0, 1, 0, -9.02681, -16.90096, 1, 1);
+    transform: matrix3d(1.12249, 0.11025, 0, -0.0001, -0.03726, 1.0775, 0, -0.00004, 0, 0, 1, 0, -9.02681, -16.90096, 1, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(28) {
+    width: 56vh;
+    top: 5vh;
+    left: 490vh;
+}
+
+.gallery-landing-image-wrap:nth-child(28) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(29) {
+    width: 31vh;
+    top: 39vh;
+    left: 488vh;
+}
+
+.gallery-landing-image-wrap:nth-child(29) .gallery-landing-image-transform {
+    -webkit-animation-delay: -2s;
+    animation-delay: -2s;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(30) {
+    -webkit-animation-delay: -9s;
+    animation-delay: -9s;
+    width: 46vh;
+    top: 45vh;
+    left: 534vh;
+}
+
+.gallery-landing-image-wrap:nth-child(30) .gallery-landing-image-transform {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1);
+    transform: matrix3d(1.017658, .047053, 0, .000139, -.070528, .886048, 0, -.000278, 0, 0, 1, 0, 5.477972, 7.254419, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(31) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    width: 56vh;
+    top: 5vh;
+    left: 550vh;
+}
+
+.gallery-landing-image-wrap:nth-child(31) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(.86772, -.07912, 0, -.00016, -.10694, 1.01582, 0, -.00004, 0, 0, 1, 0, 34.86264, 3.24487, 0, 1);
+    transform: matrix3d(.86772, -.07912, 0, -.00016, -.10694, 1.01582, 0, -.00004, 0, 0, 1, 0, 34.86264, 3.24487, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(32) {
+    width: 36vh;
+    top: 45vh;
+    left: 584vh;
+}
+
+.gallery-landing-image-wrap:nth-child(32) .gallery-landing-image-transform {
+    -webkit-animation-delay: -12s;
+    animation-delay: -12s;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(33) {
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    width: 40vh;
+    top: 5vh;
+    left: 612vh;
+}
+
+.gallery-landing-image-wrap:nth-child(33) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(34) {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    width: 23vh;
+    top: 5vh;
+    left: 657vh;
+}
+
+.gallery-landing-image-wrap:nth-child(34) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(.86772, -.07912, 0, -.00016, -.10694, 1.01582, 0, -.00004, 0, 0, 1, 0, 34.86264, 3.24487, 0, 1);
+    transform: matrix3d(.86772, -.07912, 0, -.00016, -.10694, 1.01582, 0, -.00004, 0, 0, 1, 0, 34.86264, 3.24487, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(35) {
+    -webkit-animation-delay: 5s;
+    animation-delay: 5s;
+    width: 30vh;
+    top: 29vh;
+    left: 624vh;
+}
+
+.gallery-landing-image-wrap:nth-child(35) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(.86772, -.07912, 0, -.00016, -.10694, 1.01582, 0, -.00004, 0, 0, 1, 0, 34.86264, 3.24487, 0, 1);
+    transform: matrix3d(.86772, -.07912, 0, -.00016, -.10694, 1.01582, 0, -.00004, 0, 0, 1, 0, 34.86264, 3.24487, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(36) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    width: 52vh;
+    top: 61vh;
+    left: 627vh;
+}
+
+.gallery-landing-image-wrap:nth-child(36) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.01766, .04705, 0, .00014, -.07053, .88605, 0, -.00028, 0, 0, 1, 0, 5.47797, 7.25442, 0, 1);
+    transform: matrix3d(1.01766, .04705, 0, .00014, -.07053, .88605, 0, -.00028, 0, 0, 1, 0, 5.47797, 7.25442, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(36) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    width: 52vh;
+    top: 61vh;
+    left: 627vh;
+}
+
+.gallery-landing-image-wrap:nth-child(36) .gallery-landing-image-transform {
+    -webkit-animation-delay: -8;
+    animation-delay: -8;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.01766, .04705, 0, .00014, -.07053, .88605, 0, -.00028, 0, 0, 1, 0, 5.47797, 7.25442, 0, 1);
+    transform: matrix3d(1.01766, .04705, 0, .00014, -.07053, .88605, 0, -.00028, 0, 0, 1, 0, 5.47797, 7.25442, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(37) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    width: 52vh;
+    top: 9vh;
+    left: 689vh;
+}
+
+.gallery-landing-image-wrap:nth-child(37) .gallery-landing-image-transform {
+    -webkit-animation-delay: -3;
+    animation-delay: -3;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1);
+    transform: matrix3d(1.21249, .11025, 0, .00054, -.03726, 1.0775, 0, -.00004, 0, 0, 1, 0, -12.02681, -13.90096, 0, 1)
+}
+
+.gallery-landing-image-wrap:nth-child(38) {
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    width: 38vh;
+    top: 51vh;
+    left: 696vh;
+}
+
+.gallery-landing-image-wrap:nth-child(38) .gallery-landing-image-transform {
+    -webkit-animation-delay: 2;
+    animation-delay: 2;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: matrix3d(1.01766, .04705, 0, .00014, -.07053, .88605, 0, -.00028, 0, 0, 1, 0, 5.47797, 7.25442, 0, 1);
+    transform: matrix3d(1.01766, .04705, 0, .00014, -.07053, .88605, 0, -.00028, 0, 0, 1, 0, 5.47797, 7.25442, 0, 1)
 }
 
 .gallery-landing-image-wrapped .gallery-landing-image-transform {
@@ -2512,6 +2843,12 @@ figure {
 .gallery-landing-image-caption-right {
     left: auto;
     right: calc(-2% - 1vh)
+}
+
+.gallery-landing-image-caption-middle {
+    left: auto;
+    right: calc(40% - 1vh);
+    top: 75%;
 }
 
 .gallery-landing-image-caption-content {
@@ -3124,10 +3461,12 @@ a.come-back {
 @media (max-width:40rem) {
     a.come-back {
         position: fixed;
-        top: auto;
+        top: 20vh;
         bottom: 0;
-        left: 60px;
-        width: calc(100% - 120px);
+        left: 0px;
+        height: 40vh;
+        width: 55px;
+        writing-mode: tb-rl;
     }
 }
 
